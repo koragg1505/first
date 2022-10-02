@@ -1,0 +1,146 @@
+body{
+  background-color: F9F9F9;
+  margin: 0;
+  text-align: center;   /* to bring the img to the cetre */
+  font-family: 'Merriweather',serif;
+/*   font-size: 500px; */
+}
+
+                            /* only the class is represented br '.'  and ide with '#' in css */
+
+h1{
+  font-family: 'Monsieur La Doulaise', cursive;
+  font-size: 5.625rem;   /* if you use rem then it will ignore the font-size of body and apply only the rem */
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;  /* it has no unit; */
+}
+
+h2{
+  font-family: 'Montserrat' , sans-serif ;
+  font-size: 2.65em;       /* 1em = 16px */
+   color: #11999E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5% ;
+}
+
+.top-container{
+  background-color: #C1F4C5;
+  position: relative; /* which means that img are relative to that top container only , padding means border */
+  padding: 100px;
+
+}
+/*
+.middle-container{
+ background-color: #7A0BC0;
+  width: 200px;
+  height: 200px;
+}*/
+
+/*
+.bottom-container{
+  background-color: #FF7272;
+  width: 200px;
+  height: 200px;
+}
+*/
+.middle-container{
+  padding: 60px;
+  background-color: 40514E;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: 50px 0 20px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left : 300px;
+  bottom :250px;
+}
+
+.top-cloud{
+  right : 300px;
+  position: absolute;
+  top : 40px;
+}
+.tarantino{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  float: left;
+  margin-right: 5%;
+}
+
+.ironman{
+  height: 100px;
+  width: 100px
+  border-radius: 50px;
+
+}
+.Direction{
+  height: 100px;
+  width: 100px
+  border-radius: 50px;
+   float: right;
+   margin-left: 5%; /* to bring the gap between the text and img */
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto; /* auto means all sides  and to bring it to centre */
+  line-height: 2;
+  text-align: left;  /* to make text starting from left of img */
+
+}
+
+a
+{
+  color: 11999E;
+  font-family: 'Merriweather',serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FF7272;
+}
+
+.copyright{
+  color: #EAF6F6;
+  margin: 10px 0;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Merriweather',serif;
+  color: #faf5fa;
+  font-size: 20px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #279de6);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #279de6);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #279de6);
+  background-image: -o-linear-gradient(top, #3cb0fd, #279de6);
+  background-image: linear-gradient(to bottom, #3cb0fd, #279de6);
+  text-decoration: none;
+}
